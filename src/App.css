@@ -1,0 +1,295 @@
+.header-color {
+  background: #000000;  /*fallback*/
+  background: -webkit-linear-gradient(to right, #000000, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.term-grid{
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: scroll;
+  top: 0;
+  left: 0;
+
+}
+
+.bottomright{
+  font-family: 'Consolas', monospace;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+  font-size: 15px;
+  text-decoration-color: white;
+}
+.bottomright2{
+  font-family: 'Consolas', monospace;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 25px;
+  right: 130px;
+  font-size: 15px;
+  text-decoration-color: white;
+}
+
+.bottomright3{
+  font-family: 'Consolas', monospace;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 25px;
+  right: 265px;
+  font-size: 15px;
+  text-decoration-color: white;
+}
+
+.viewall-grid {
+  display: flex;
+  padding: 30px;
+}
+
+.b{
+  textdecoration:none;
+}
+
+/* login css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2rem;
+}
+
+/* aboutus */
+
+.aboutus-body {
+  margin: auto;
+  position: scroll;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.aboutus-grid h1{
+  font-family: 'Consolas', monospace;
+  font-size: 60px;
+  font-padding: 10px;
+  font-weight: bold;
+  padding: 10px;
+  padding-bottom: -10px;
+}
+
+.aboutus-grid {
+  border-top-color:black;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background: white;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.aboutus-grid h2 {
+  font-family: 'Consolas', monospace;
+  font-weight:bold;
+  font-size:50px;
+}
+
+.aboutus-grid2 {
+  border-top-color:black;
+  text-align: center;
+  justify-content: center;
+  background: white;f
+  color: black;
+  margin-bottom: 50px;
+  padding-bottom: 500px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  bottom: 100%;
+  width: 100%;
+}
+
+.aboutus-grid p {
+  font-family: 'Consolas', monospace;
+  font-size: 20px;
+  font-padding: 10px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.aboutus-grid hr {
+  width: 0%;
+  margin: auto;
+}
+
+.aboutus-list i {
+  padding-top: 75px;
+  font-size: 40px;
+  padding-right: 3rem;
+}
+
+.aboutus-list e {
+  font-size: 35px;
+  padding-right: 3rem;
+}
+
+.aboutus-list g {
+  font-size: 42px;
+  padding-right: 3rem;
+}
+
+.aboutus-list l {
+  font-size: 40px;
+  padding-right: 3rem;
+}
+
+/* main page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 200px;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text2 {
+  background-color: white;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-family: 'Consolas', monospace;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+.demoForm {
+  font-family: 'Consolas', monospace;
+  font-size: 28px;
+	width: 100%;
+	margin: auto;
+  text-align: center;
+
+}
+
+.demoForm h1{
+  font-family: 'Consolas', monospace;
+  font-size: 10px;
+  padding-right: 50px;
+	width: 50px;
+	margin: auto;
+  padding:50px;
+}
+
+.viewAll h6{
+  font-family: 'Consolas', monospace;
+  font-size: 10px;
+  padding-right: 0px;
+	width: 5px;
+}
+
+.viewAll h7{
+  font-family: 'Consolas', monospace;
+  font-size: 5px;
+	width: 5px;
+
+}
+
+.banner-text h3 {
+  font-family: 'Consolas', monospace;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text h8 {
+  font-family: 'Consolas', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.termgridtxt{
+  font-family: 'Consolas', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: 'center';
+  width:50%;
+}
+
+.banner-text hr {
+  border-top: 5px solid white;
+  width: 70%;
+  margin: auto;
+
+}
+
+.banner-text p {
+  border-top: 20px solid white;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.centertext {
+  text-align: center;
+  font-family: 'Consolas', monospace;
+  font-size: 100px;
+
+}
+
+.bannertextsize{
+  font-family: 'Consolas', monospace;
+  font-size:20px;
+  font-style:bold;
+  text-align: right;
+}
+
+.bannertextsize2{
+  font-family: 'Consolas', monospace;
+  font-size:30px;
+  font-style:bold;
+  color:black;
+}
